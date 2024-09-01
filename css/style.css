@@ -4,4 +4,149 @@
     padding: 0;
     box-sizing: border-box;
 }
+ul,li{
+    list-style-type: none;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: .8;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* common css End */
+
+/* Navbar css Start */
+#navbar{
+    padding-top: 55px;
+    background: transparent;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+}
+#navbar .container .navbar-nav .nav-item .nav-link{
+    color: #CFCFCF;
+text-align: center;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 21px; /* 150% */
+letter-spacing: 1px;
+}
+#navbar .container .navbar-nav .nav-item .active{
+    color: #FEBA12;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21px; /* 150% */
+    letter-spacing: 1px;
+}
+#navbar .container .navbar-nav{
+    column-gap: 43px;
+    margin-right: 58px;
+}
+#navbar .container form .nav_btn{
+    padding: 9px 19px;
+    border-radius: 4px;
+background: #FEBA12;
+color: #000;
+text-align: center;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 14px; /* 116.667% */
+letter-spacing: 1px;
+text-transform: uppercase;
+}
+/* Navbar css End */
+
+/* Banner css start */
+#banner{
+    padding: 346px 0 366px;
+    background: url(../images/banner.png) no-repeat center/cover;
+    position: relative;
+}
+#banner .container h1{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 78px;
+    text-align: center;
+}
+#banner .container h1 span{
+    color: #FEBA12;
+text-align: center;
+font-family: Poppins;
+font-size: 65px;
+font-style: normal;
+font-weight: 600;
+line-height: 78px; /* 120% */
+}
+#banner .container p{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px; /* 120% */
+}
+#banner .container .form_part{
+    width: 100%;
+}
+#banner .container .form_part .row .col-lg-4{
+    text-align: center;
+    border-radius: 8px 0px 0px 8px;
+background: #EFB317;
+padding: 140px 89px 158px 89px;
+}
+#banner .container .form_part .row .col-lg-4 h2{
+    color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 78px; /* 390% */
+}
+#banner .container .form_part .row .col-lg-4 h3{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 78px; /* 156% */
+    margin: 10px 0 17px;
+}
+#banner .container .form_part .row .col-lg-4 h4{
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 78px; /* 78% */
+    margin-bottom: 10px;
+}
+#banner .container .form_part .row .col-lg-4 p{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 78px; /* 390% */
+}
+/* Banner css End */
